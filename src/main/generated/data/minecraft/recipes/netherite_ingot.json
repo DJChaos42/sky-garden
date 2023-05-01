@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "netherite_ingot",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:netherite_scrap"
+    }
+  },
+  "pattern": [
+    "SGS",
+    "GSG",
+    "SGS"
+  ],
+  "result": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "show_notification": true
+}

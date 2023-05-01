@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "end_stone",
+  "key": {
+    "E": {
+      "item": "minecraft:ender_eye"
+    },
+    "P": {
+      "item": "minecraft:purpur_block"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PEP",
+    "PPP"
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:shulker_shell"
+  },
+  "show_notification": true
+}

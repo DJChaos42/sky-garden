@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "netherite_smithing_template",
+  "key": {
+    "B": {
+      "item": "minecraft:blaze_powder"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "pattern": [
+    "BDB",
+    "DND",
+    "BDB"
+  ],
+  "result": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  },
+  "show_notification": true
+}

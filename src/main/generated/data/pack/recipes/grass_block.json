@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "grass_block",
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "G": {
+      "item": "minecraft:grass"
+    }
+  },
+  "pattern": [
+    "GG",
+    "DD"
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:grass_block"
+  },
+  "show_notification": true
+}

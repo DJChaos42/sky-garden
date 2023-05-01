@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "bell",
+  "key": {
+    "G": {
+      "item": "minecraft:gold_block"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    }
+  },
+  "pattern": [
+    "LLL",
+    "SGS",
+    "S S"
+  ],
+  "result": {
+    "item": "minecraft:bell"
+  },
+  "show_notification": true
+}

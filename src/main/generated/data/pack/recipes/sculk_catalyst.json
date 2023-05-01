@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "sculk_catalyst",
+  "key": {
+    "B": {
+      "item": "minecraft:bone_block"
+    },
+    "S": {
+      "item": "minecraft:soul_lantern"
+    },
+    "V": {
+      "item": "minecraft:sculk_vein"
+    },
+    "X": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "pattern": [
+    "VSV",
+    "XBX",
+    "XXX"
+  ],
+  "result": {
+    "item": "minecraft:sculk_catalyst"
+  },
+  "show_notification": true
+}

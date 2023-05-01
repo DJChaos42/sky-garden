@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#pack:glass_blocks",
+    "#pack:glass_panes"
+  ]
+}

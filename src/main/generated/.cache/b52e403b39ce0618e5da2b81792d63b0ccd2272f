@@ -1,0 +1,7 @@
+// 23w17a	2023-05-01T12:38:24.840162	Sky Garden/Tags for minecraft:block
+0fadf8579b5165e435ab194ddf3d29f909436ed3 data\pack\tags\blocks\glass_panes.json
+627d5d50f067ef65eb6b787f778f574555ed7e4f data\pack\tags\blocks\glass_blocks.json
+57da711cab794881505aa078f9af3eec44602384 data\minecraft\tags\blocks\maintains_farmland.json
+57da711cab794881505aa078f9af3eec44602384 data\minecraft\tags\blocks\mineable\pickaxe.json
+31a172dee1eee095126513d3923cfef13eb1221d data\minecraft\tags\blocks\dragon_immune.json
+c8b41102c0a8d6b06c87e8313a6faaca03461cb1 data\pack\tags\blocks\glass.json

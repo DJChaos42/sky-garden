@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "minecraft:sweeping": 1,
+            "minecraft:sharpness": 99,
+            "minecraft:looting": 5
+          }
+        }
+      ]
+    }
+  ]
+}

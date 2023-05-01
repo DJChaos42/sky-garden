@@ -1,0 +1,20 @@
+{
+  "advancements.pack.root.description": "A world in the sky",
+  "advancements.pack.root.title": "Sky Garden",
+  "block.minecraft.stonecutter": "Block Cutter",
+  "block.pack.suspicious_gravel.ocean": "Soggy",
+  "block.pack.suspicious_gravel.trail.common": "Earthy",
+  "block.pack.suspicious_gravel.trail.rare": "Intriguing",
+  "block.pack.suspicious_sand.ocean": "Damp",
+  "block.pack.suspicious_sand.pyramid": "Regal",
+  "block.pack.suspicious_sand.well": "Loamy",
+  "container.stonecutter": "Block Cutter",
+  "gui.jei.category.stoneCutter": "Block Cutting",
+  "gui.rei.category.stoneCutter": "Block Cutting",
+  "item.minecraft.enchanted_golden_apple": "Enchanted Apple",
+  "item.minecraft.quartz": "Quartz",
+  "item.minecraft.rabbit_hide": "Small Hide",
+  "item.pack.permapick": "Permapick",
+  "stat.minecraft.interact_with_stonecutter": "Interactions with Block Cutter",
+  "subtitles.ui.stonecutter.take_result": "Block Cutter used"
+}

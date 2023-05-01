@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "tuff",
+  "key": {
+    "B": {
+      "item": "minecraft:blackstone"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    "BQ",
+    "QB"
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:tuff"
+  },
+  "show_notification": true
+}

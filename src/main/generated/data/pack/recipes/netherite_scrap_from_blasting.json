@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "group": "netherite_scrap",
+  "ingredient": {
+    "tag": "pack:smelts_to_netherite_scrap"
+  },
+  "result": "minecraft:netherite_scrap"
+}

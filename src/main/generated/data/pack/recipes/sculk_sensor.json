@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "sculk_sensor",
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "V": {
+      "item": "minecraft:sculk_vein"
+    },
+    "X": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "pattern": [
+    "VVV",
+    "XRX",
+    "XXX"
+  ],
+  "result": {
+    "item": "minecraft:sculk_sensor"
+  },
+  "show_notification": true
+}

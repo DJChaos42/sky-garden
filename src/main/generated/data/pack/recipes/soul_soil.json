@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "soul_soil",
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "pattern": [
+    "DS",
+    "SD"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:soul_soil"
+  },
+  "show_notification": true
+}

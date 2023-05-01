@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "end_stone",
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "F": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CFC",
+    "CCC"
+  ],
+  "result": {
+    "count": 8,
+    "item": "minecraft:end_stone"
+  },
+  "show_notification": true
+}

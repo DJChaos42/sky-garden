@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "sculk_shrieker",
+  "key": {
+    "N": {
+      "item": "minecraft:note_block"
+    },
+    "S": {
+      "item": "minecraft:sculk_sensor"
+    },
+    "V": {
+      "item": "minecraft:sculk_vein"
+    },
+    "X": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "pattern": [
+    "VSV",
+    "XNX",
+    "XXX"
+  ],
+  "result": {
+    "item": "minecraft:sculk_shrieker"
+  },
+  "show_notification": true
+}

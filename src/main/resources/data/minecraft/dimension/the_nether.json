@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:the_nether",
+  "generator": {
+    "type": "minecraft:flat",
+    "settings": {
+      "biome": "minecraft:nether_wastes",
+      "layers": [
+        {
+          "block": "minecraft:lava",
+          "height": 5
+        },
+        {
+          "block": "minecraft:air",
+          "height": 64
+        }
+      ],
+      "structure_overrides": "minecraft:buried_treasures"
+    }
+  }
+}

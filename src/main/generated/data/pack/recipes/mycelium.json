@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "mycelium",
+  "key": {
+    "D": {
+      "item": "minecraft:dirt"
+    },
+    "M": {
+      "tag": "pack:mushrooms"
+    }
+  },
+  "pattern": [
+    "MM",
+    "DD"
+  ],
+  "result": {
+    "count": 2,
+    "item": "minecraft:mycelium"
+  },
+  "show_notification": true
+}
