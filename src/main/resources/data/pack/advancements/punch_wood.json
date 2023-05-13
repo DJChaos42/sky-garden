@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "title": {
+      "translate": "advancements.pack.punch_wood.title"
+    },
+    "description": {
+      "translate": "advancements.pack.punch_wood.description"
+    }
+  },
+  "parent": "pack:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:logs"
+          }
+        ]
+      }
+    }
+  }
+}

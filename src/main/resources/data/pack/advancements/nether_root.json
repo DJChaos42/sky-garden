@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glowstone"
+    },
+    "title": {
+      "translate": "advancements.pack.nether_root.title"
+    },
+    "description": {
+      "translate": "advancements.pack.nether_root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/nether.png"
+  },
+  "criteria": {
+    "entered_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  }
+}

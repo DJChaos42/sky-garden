@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:raw_copper"
+    },
+    "title": {
+      "translate": "advancements.pack.copper.title"
+    },
+    "description": {
+      "translate": "advancements.pack.copper.description"
+    }
+  },
+  "parent": "pack:kill_drowned",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_copper"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

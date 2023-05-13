@@ -172,7 +172,26 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_ingot"
+          "name": "minecraft:raw_gold",
+		  "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 3.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -205,7 +224,7 @@
         },
         {
           "condition": "minecraft:random_chance_with_looting",
-          "chance": 0.025,
+          "chance": 0.05,
           "looting_multiplier": 0.01
         }
       ]

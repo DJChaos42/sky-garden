@@ -28,5 +28,6 @@
     "recipes": [
       "minecraft:mycelium"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

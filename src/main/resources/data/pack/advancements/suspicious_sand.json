@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sand"
+    },
+    "title": {
+      "translate": "advancements.pack.suspicious_sand.title"
+    },
+    "description": {
+      "translate": "advancements.pack.suspicious_sand.description"
+    }
+  },
+  "parent": "pack:sand_root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:suspicious_sand"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "pack:rewards/expansion_2"
+  }
+}

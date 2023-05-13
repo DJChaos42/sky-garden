@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cherry_sapling"
+    },
+    "title": {
+      "translate": "advancements.pack.cherry_root.title"
+    },
+    "description": {
+      "translate": "advancements.pack.cherry_root.description"
+    },
+    "background": "pack:textures/gui/advancements/backgrounds/cherry_island.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "minecraft:taiga",
+            "block": {
+              "blocks": [
+                "minecraft:pink_petals"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

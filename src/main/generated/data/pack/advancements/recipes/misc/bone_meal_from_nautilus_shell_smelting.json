@@ -30,5 +30,6 @@
     "recipes": [
       "minecraft:bone_meal_from_nautilus_shell_smelting"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

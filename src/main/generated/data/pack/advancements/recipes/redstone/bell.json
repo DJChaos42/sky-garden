@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:bell"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

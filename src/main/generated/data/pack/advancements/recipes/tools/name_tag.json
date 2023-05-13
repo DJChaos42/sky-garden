@@ -43,5 +43,6 @@
     "recipes": [
       "minecraft:name_tag"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

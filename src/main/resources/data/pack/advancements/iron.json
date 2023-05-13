@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:raw_iron"
+    },
+    "title": {
+      "translate": "advancements.pack.iron.title"
+    },
+    "description": {
+      "translate": "advancements.pack.iron.description"
+    }
+  },
+  "parent": "pack:kill_zombie",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:raw_iron"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "pack:rewards/expansion_1"
+  }
+}

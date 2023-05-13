@@ -27,9 +27,14 @@ public class DataEnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(Items.RABBIT_HIDE, "Small Hide");
         translationBuilder.add(Items.QUARTZ, "Quartz");
         //CUSTOM
-        translationBuilder.add("advancements.pack.root.title", "Foo");
-        translationBuilder.add("advancements.pack.root.description", "Bar");
+        //ADVANCEMENTS
+        translationBuilder.add("advancements.pack.root.title", "Sky Garden");
+        translationBuilder.add("advancements.pack.root.description", "A world in the sky");
+        translationBuilder.add("advancements.pack.sapling.title", "Renewable");
+        translationBuilder.add("advancements.pack.sapling.description", "Obtain a sapling from a tree");
+        //ITEMS
         translationBuilder.add("item.pack.permapick", "Permapick");
+        //BLOCKS
         translationBuilder.add("block.pack.suspicious_gravel.trail.common", "Earthy");
         translationBuilder.add("block.pack.suspicious_gravel.trail.rare", "Intriguing");
         translationBuilder.add("block.pack.suspicious_gravel.ocean", "Soggy");

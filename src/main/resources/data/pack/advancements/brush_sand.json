@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_nugget"
+    },
+    "title": {
+      "translate": "advancements.pack.brush_sand.title"
+    },
+    "description": {
+      "translate": "advancements.pack.brush_sand.description"
+    }
+  },
+  "parent": "pack:brush",
+  "criteria": {
+    "desert_pyramid": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:archaeology/desert_pyramid"
+      }
+    },
+    "desert_well": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:archaeology/desert_well"
+      }
+    },
+    "ocean_ruin_warm": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:archaeology/ocean_ruin_warm"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "desert_pyramid",
+      "desert_well",
+      "ocean_ruin_warm"
+    ]
+  ],
+  "rewards": {
+    "function": "pack:rewards/expansion_2"
+  }
+}

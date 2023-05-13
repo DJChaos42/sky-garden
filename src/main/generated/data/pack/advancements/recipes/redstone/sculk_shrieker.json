@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:sculk_shrieker"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

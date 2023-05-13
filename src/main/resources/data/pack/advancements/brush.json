@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:brush"
+    },
+    "title": {
+      "translate": "advancements.pack.brush.title"
+    },
+    "description": {
+      "translate": "advancements.pack.brush.description"
+    }
+  },
+  "parent": "pack:copper",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:brush"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

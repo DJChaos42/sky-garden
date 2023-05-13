@@ -15,6 +15,7 @@ execute unless data storage pack:data master.loaded in minecraft:the_end run for
 execute unless data storage pack:data master.loaded in minecraft:the_end run setblock 0 2 0 minecraft:end_stone
 execute unless data storage pack:data master.loaded in minecraft:the_end run setblock 10 1 0 minecraft:end_stone
 execute unless data storage pack:data master.loaded in minecraft:the_end run setblock 10 2 0 minecraft:chorus_flower
+execute unless data storage pack:data master.loaded run worldborder set 120 0
 
 execute unless data storage pack:data master.loaded run setworldspawn 4 54 6
 execute unless data storage pack:data master.loaded run forceload remove all

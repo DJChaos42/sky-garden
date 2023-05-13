@@ -56,5 +56,6 @@
     "recipes": [
       "minecraft:sculk_catalyst"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

@@ -28,5 +28,6 @@
     "recipes": [
       "minecraft:podzol"
     ]
-  }
+  },
+  "sends_telemetry_event": false
 }

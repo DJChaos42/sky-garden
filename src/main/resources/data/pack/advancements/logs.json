@@ -1,0 +1,73 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "title": {
+      "translate": "advancements.pack.logs.title"
+    },
+    "description": {
+      "translate": "advancements.pack.logs.description"
+    },
+    "hidden": true,
+    "frame": "challenge",
+    "show_toast": true
+  },
+  "parent": "pack:punch_wood",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_log"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:birch_log"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:cherry_log"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:dark_oak_log"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:jungle_log"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:mangrove_log"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:oak_log"
+            ],
+            "count": 64
+          },
+          {
+            "items": [
+              "minecraft:spruce_log"
+            ],
+            "count": 64
+          }
+        ]
+      }
+    }
+  }
+}
